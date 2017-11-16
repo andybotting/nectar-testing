@@ -1,0 +1,11 @@
+config:
+  compute:
+    availability_zone: nova
+    fixed_network_name: private
+  volume:
+    availability_zone: nova
+  validation:
+    network_for_ssh: private
+  network:
+    public_network_id: 'caa0af7d-51a8-4986-82e7-c370b4790205'
+    floating_network_name: 'public'

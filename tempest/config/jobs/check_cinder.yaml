@@ -1,0 +1,3 @@
+config:
+  volume:
+    build_timeout: '600'

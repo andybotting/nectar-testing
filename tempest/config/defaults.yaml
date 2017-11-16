@@ -1,0 +1,35 @@
+config:
+  auth:
+      use_dynamic_credentials: False
+      create_isolated_networks: False
+  compute:
+      build_interval: '5'
+      build_timeout: '300'
+  compute-feature-enabled:
+      disk_config: False
+      shelve: False
+      vnc_console: True
+      rescue: False
+      personality: False
+      config_drive: False
+  identity:
+      ca_certificates_file: /etc/ssl/certs/ca-certificates.crt
+      auth_version: v3
+  identity-feature-enabled:
+      api_v2: False
+      api_v2_admin: False
+      api_v3: True
+  image:
+      build_interval: '5'
+  network:
+      build_interval: '5'
+  network-feature-enabled:
+      ipv6: False
+  validation:
+      run_validation: True
+      connect_method: fixed
+      ssh_timeout: '120'
+      auth_method: keypair
+      image_ssh_user: cirros
+  volume:
+      build_interval: '5'

@@ -1,0 +1,35 @@
+tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_network_basic_ops
+
+########## Below scenario test cases are working but take long time for test
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_preserve_preexisting_port
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_hotplug_nic
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_mtu_sized_frames
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_subnet_details
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_update_instance_port_admin_state
+#tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_update_router_admin_state
+#tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_reboot
+#tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_stop_start
+#tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_suspend_resume
+#tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_pause_unpause
+
+########### Limited test cases
+# tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_cold_migration
+# tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_cold_migration_revert
+# SKIPPED at least two compute nodes are required
+
+# tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_rebuild
+# This case could be run but have to ganrantee the two image using the same validation username.
+# This meets with problem in the test and prod env, VirtualInterface Creation failed
+
+# tempest.scenario.test_network_advanced_server_ops.TestNetworkAdvancedServerOps.test_server_connectivity_resize
+# Skipped, manual resize is not working
+
+# tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_connectivity_between_vms_on_different_networks
+# Skipped until Bug: 1610994 is resolved.
+
+# tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_port_security_macspoofing_port
+# This case can not be run, due to port_security_enabled feature need to enable extension_drivers = port_security
+# in the /etc/neutron/plugins/ml2/ml2_conf.ini
+
+# tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_router_rescheduling
+# l3 agent is not used.

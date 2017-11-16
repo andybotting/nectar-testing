@@ -1,0 +1,10 @@
+# Volumes
+tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_attach_detach_volume_to_instance
+tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_bootable
+tempest.api.volume.test_volumes_extend.VolumesExtendTest.test_volume_extend
+tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_create_get_list_update_delete
+# Volumes backup in volumes actions test
+#tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_backup
+#tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_readonly_update
+# Volumes backup test
+tempest.api.volume.test_volumes_backup.VolumesBackupsTest.test_backup_create_attached_volume

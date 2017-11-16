@@ -1,0 +1,8 @@
+config:
+  compute:
+      image_ref: '02456068-c1ca-4d75-aeda-a96cff21f7e3'
+      image_ref_alt: '05dd2a23-dc90-460e-ade6-68adf20881bf'
+      flavor_ref: '2fa6296a-9ea2-462f-b666-9514112ef7d0'
+      flavor_ref_alt: '1e3f1e29-cf14-4178-a3da-9bcab7cb5384'
+  identity:
+      uri_v3: 'https://keystone.test.your.site:5000/v3/'

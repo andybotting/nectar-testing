@@ -1,0 +1,7 @@
+config:
+  auth:
+    create_isolated_networks: True
+  service_available:
+    neutron: True
+  validation:
+    connect_method: 'floating'

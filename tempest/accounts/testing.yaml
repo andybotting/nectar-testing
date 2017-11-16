@@ -1,0 +1,4 @@
+- username: tempest
+  project_name: tempest
+  password: tempest
+  project_domain_id: default

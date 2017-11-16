@@ -1,0 +1,3 @@
+config:
+  compute:
+    flavor_ref: cba9ea52-8e90-468b-b8c2-777a94d81ed3

@@ -1,0 +1,3 @@
+config:
+  compute:
+    flavor_ref: 1

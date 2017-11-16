@@ -1,0 +1,4 @@
+config:
+  compute:
+    flavor_ref: 4
+    build_timeout: 600

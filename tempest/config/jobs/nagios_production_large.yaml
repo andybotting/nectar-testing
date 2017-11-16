@@ -1,0 +1,4 @@
+config:
+  compute:
+    flavor_ref: 13000ccd-6a24-4bc5-9520-743707f8c0a2
+    build_timeout: 600
